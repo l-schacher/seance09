@@ -18,7 +18,7 @@
             <h2>Informations Étudiant</h2>
             <p><strong>Nom :</strong> Schacher</p>
             <p><strong>Prénom :</strong> Lucas</p>
-            <p><strong>TD GH</strong></p>
+            <p><strong>Groupe :</strong> TD GH</p>
             <p><strong>Identifiant MMI :</strong>mmi25g12</p>
         </section>
 
