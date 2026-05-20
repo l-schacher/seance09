@@ -1,38 +1,35 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr text">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>À Propos - Mon Profil MMI</title>
+    <title>À Propos - Profil Étudiant</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Présentation de l'Étudiant</h1>
+        <h1>Présentation</h1>
         <?php include('menu.php'); ?>
     </header>
 
     <main>
-        <section class="profile-card">
-            <h2>Informations Personnelles</h2>
-            
-            <div class="profile-info">
-                <p><strong>Nom :</strong> Rabenjason</p>
-                <p><strong>Prénom :</strong> Mathieu</p>
-                <p><strong>Groupe :</strong> [Ton Groupe - Ex: Groupe 1]</p>
-                <p><strong>Identifiant MMI :</strong> [Ton Identifiant MMI]</p>
-            </div>
+        <section class="content-box">
+            <h2>Informations Étudiant</h2>
+            <p><strong>Nom :</strong> Schacher</p>
+            <p><strong>Prénom :</strong> Lucas</p>
+            <p><strong>TD GH</strong></p>
+            <p><strong>Identifiant MMI :</strong>mmi25g12</p>
         </section>
 
-        <section class="tp-context">
-            <h3>Contexte du TP</h3>
-            <p>Ce site web a été développé localement sur le container de développement <code>buts2</code>[cite: 7]. Il est structuré avec PHP pour la gestion des composants communs et stylisé via CSS[cite: 15, 16, 18]. L'objectif final est son déploiement automatisé sur un VPS à l'aide du système de contrôle de version Git[cite: 7, 8].</p>
+        <section class="content-box">
+            <h2>Suivi du Déploiement</h2>
+            <p><strong>Mise en ligne :</strong> <?php echo date('d/m/Y H:i:s'); ?></p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 - IUT de Troyes - BUT MMI</p>
+        <p>BUT MMI - IUT de Troyes</p>
     </footer>
 
 </body>
